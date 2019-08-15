@@ -2,7 +2,6 @@ h1,
 h2 {
   font-family: "Montserrat";
   text-align: center;
-  color: white;
 }
 
 .s1 {
@@ -12,13 +11,19 @@ h2 {
 }
 
 .s2 {
-  background: url("/img/skateboard.jpg");
-  background-size: cover;
+  //background: url("/img/skateboard.jpg");
+  //background-size: cover;
+  background: white;
   h1,
   h2 {
-    text-align: left;
-    margin-left: 2em;
     font-size: 4rem;
+  }
+  @media screen and (min-width: 768) {
+    h1,
+    h2 {
+      text-align: left;
+      margin-left: 2em;
+    }
   }
 }
 
@@ -27,12 +32,31 @@ h2 {
   background-size: cover;
   h1,
   h2 {
-    text-align: left;
-    margin-left: 2em;
     font-size: 2rem;
+    color: #000000;
+  }
+  @media screen and (min-width: 768) {
+    h1,
+    h2 {
+      text-align: left;
+      margin-left: 2em;
+    }
   }
 }
 
-span {
-  //  background: white !important;
+.fp-controlArrow.fp-next {
+  border-color: transparent transparent transparent #000000 !important;
+}
+
+.fp-controlArrow.fp-prev {
+  border-color: transparent #000000 transparent transparent !important;
+}
+
+.section {
+  justify-content: center;
+  text-align: center;
+}
+
+#slide-umsatz {
+  background: green;
 }

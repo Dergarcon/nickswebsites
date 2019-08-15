@@ -15104,35 +15104,6 @@ button.md-toast-close-button {
   .contact-section .contact .far {
     color: #6b89a5; }
 
-h1,
-h2 {
-  font-family: "Montserrat";
-  text-align: center;
-  color: white; }
-
-.s1 {
-  background: url("/img/wlan.gif");
-  background-size: cover;
-  background-position: center center; }
-
-.s2 {
-  background: url("/img/skateboard.jpg");
-  background-size: cover; }
-  .s2 h1,
-  .s2 h2 {
-    text-align: left;
-    margin-left: 2em;
-    font-size: 4rem; }
-
-.s3 {
-  background: url("/img/wasser.jpg");
-  background-size: cover; }
-  .s3 h1,
-  .s3 h2 {
-    text-align: left;
-    margin-left: 2em;
-    font-size: 2rem; }
-
 /*!
  * fullPage 3.0.7
  * https://github.com/alvarotrigo/fullPage.js
@@ -15360,3 +15331,51 @@ html.fp-enabled {
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border: 0; }
+h1,
+h2 {
+  font-family: "Montserrat";
+  text-align: center; }
+
+.s1 {
+  background: url("/img/wlan.gif");
+  background-size: cover;
+  background-position: center center; }
+
+.s2 {
+  background: white; }
+  .s2 h1,
+  .s2 h2 {
+    font-size: 4rem; }
+  @media screen and (min-width: 768) {
+    .s2 h1,
+    .s2 h2 {
+      text-align: left;
+      margin-left: 2em; } }
+
+.s3 {
+  background: url("/img/wasser.jpg");
+  background-size: cover; }
+  .s3 h1,
+  .s3 h2 {
+    font-size: 2rem;
+    color: #000000; }
+  @media screen and (min-width: 768) {
+    .s3 h1,
+    .s3 h2 {
+      text-align: left;
+      margin-left: 2em; } }
+
+.fp-controlArrow.fp-next {
+  border-color: transparent transparent transparent #000000 !important; }
+
+.fp-controlArrow.fp-prev {
+  border-color: transparent #000000 transparent transparent !important; }
+
+.section {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center; }
+
+#slide-umsatz {
+  background: green; }
