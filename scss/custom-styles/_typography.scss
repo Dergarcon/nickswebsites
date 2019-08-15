@@ -1,3 +1,38 @@
-body {
-  color: red;
+h1,
+h2 {
+  font-family: "Montserrat";
+  text-align: center;
+  color: white;
+}
+
+.s1 {
+  background: url("/img/wlan.gif");
+  background-size: cover;
+  background-position: center center;
+}
+
+.s2 {
+  background: url("/img/skateboard.jpg");
+  background-size: cover;
+  h1,
+  h2 {
+    text-align: left;
+    margin-left: 2em;
+    font-size: 4rem;
+  }
+}
+
+.s3 {
+  background: url("/img/wasser.jpg");
+  background-size: cover;
+  h1,
+  h2 {
+    text-align: left;
+    margin-left: 2em;
+    font-size: 2rem;
+  }
+}
+
+span {
+  //  background: white !important;
 }
