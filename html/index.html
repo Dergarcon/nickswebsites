@@ -23,8 +23,8 @@
 
   <body>
     <div id="fullPage">
-      <div class="section s1">
-        <div class="container mask rgba-black-strong">
+      <div class="section s1 mask rgba-black-strong">
+        <div class="container">
           <!--Grid row-->
           <div class="row">
             <!--Grid column-->
@@ -40,7 +40,9 @@
                 class="text-uppercase mb-4 white-text wow fadeInDown"
                 data-wow-delay="0.4s"
               >
-                <strong>Modernes Webdesign</strong>
+                <strong
+                  >Modernes <span style="color: black">W</span>ebdesign</strong
+                >
               </h5>
               <a
                 href="#benefitsSection"
@@ -63,8 +65,8 @@
       <div class="section s2">
         <h2>Darum Mareko</h2>
         <div class="slide">
-          <i class="fab fa-500px fa-7x"></i>
-          <h2>Benutzerfreundlichkeit</h2>
+          <i class="fab fa-500px fa-7x mb-5"></i>
+          <h2 class="h1-responsive">Benutzer&shy;freundlichkeit</h2>
           <button
             data-toggle="modal"
             data-target="#modalUsability"
@@ -72,6 +74,14 @@
             data-wow-delay="0.4s"
           >
             Wie das?
+          </button>
+          <button
+            id="benefits-btn1"
+            onclick="nextSection"
+            class="btn btn-outline-black wow fadeInDown mx-auto"
+            data-wow-delay="0.4s"
+          >
+            was noch? id: benefits-btn1
           </button>
         </div>
 
@@ -83,6 +93,12 @@
             class="btn btn-outline-white wow fadeInDown mx-auto"
             data-wow-delay="0.4s"
             >Wie das?</a
+          >
+          <a
+            id="benefits-btn2"
+            class="btn btn-outline-white wow fadeInDown mx-auto nextSlide"
+            data-wow-delay="0.4s"
+            >Was noch?</a
           >
         </div>
         <div class="slide">
@@ -103,6 +119,13 @@
               data-target="#enoentry"
             >
               Mehr erfahren
+            </button>
+            <button
+              id="benefits-btn3"
+              type="button"
+              class="btn grey white-text btn-md"
+            >
+              Was noch?
             </button>
           </div>
         </div>
@@ -186,13 +209,19 @@
         ],
         scrollingSpeed: 777,
         verticalCentered: true,
-        paddingTop: "3em",
+        //paddingTop: "3em",
         paddingBottom: "3em",
         fixedElements: ".footer"
       });
     </script>
     <script>
       new WOW().init();
+    </script>
+
+    <script>
+      $("#benefits-btn1").click(function() {
+        $.fn.fullpage.moveSectionDown();
+      });
     </script>
   </body>
 </html>

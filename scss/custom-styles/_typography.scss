@@ -8,6 +8,16 @@ h2 {
   background: url("/img/wlan.gif");
   background-size: cover;
   background-position: center center;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  span {
+    text-shadow: #000000 2px 2px 1px;
+  }
 }
 
 .s2 {

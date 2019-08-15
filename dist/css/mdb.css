@@ -19333,12 +19333,18 @@ h2 {
   background: url("/img/wlan.gif");
   background-size: cover;
   background-position: center center; }
+  .s1 h1,
+  .s1 h2,
+  .s1 h3,
+  .s1 h4,
+  .s1 h5,
+  .s1 h6,
+  .s1 p,
+  .s1 span {
+    text-shadow: #000000 2px 2px 1px; }
 
 .s2 {
   background: white; }
-  .s2 h1,
-  .s2 h2 {
-    font-size: 4rem; }
   @media screen and (min-width: 768) {
     .s2 h1,
     .s2 h2 {
@@ -19350,7 +19356,6 @@ h2 {
   background-size: cover; }
   .s3 h1,
   .s3 h2 {
-    font-size: 2rem;
     color: #000000; }
   @media screen and (min-width: 768) {
     .s3 h1,

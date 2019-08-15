@@ -1,5 +1,5 @@
 checkCookie()
-
+console.log('scwoiad') 
 $('#dsgvo_accept').click(function (e) {
     $('.dsgvo').fadeOut();
     setCookie('om90-cookies', 'accepted', 29);

@@ -36,6 +36,7 @@ exports.modules = [
   './js/vendor/bs-custom-file-input.js',
   './js/cookies.js',
   './js/fullpage.min.js',
+  './js/wasNoch.js',
 
   // './js/vendor/addons/jquery.zmd.hierarchical-display.js/'
   // './js/vendor/addons/masonry.pkgd.min.js',
