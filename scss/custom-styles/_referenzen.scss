@@ -1,0 +1,36 @@
+.referenzen {
+  background-size: cover;
+  #om90 {
+    background: url("/img/om90.jpg");
+    background-size: cover;
+  }
+  #gluehsparwurm {
+    background: url("/img/gluehsparwurm.jpg");
+  }
+  #hemmerich {
+    background: url("/img/hemmerich.jpg");
+  }
+  h1,
+  h2 {
+    //   font-size: 2rem;
+    color: #000000;
+  }
+  @media screen and (min-width: 768) {
+    h1,
+    h2 {
+      text-align: left;
+      margin-left: 2em;
+    }
+  }
+
+  .slide {
+    padding-top: 30vh;
+  }
+}
+
+.btn-container {
+  display: inline-block;
+  padding: 10px;
+  width: auto;
+  margin: 0 auto;
+}

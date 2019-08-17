@@ -37,23 +37,6 @@ h2 {
   }
 }
 
-.s3 {
-  background: url("/img/wasser.jpg");
-  background-size: cover;
-  h1,
-  h2 {
-    //   font-size: 2rem;
-    color: #000000;
-  }
-  @media screen and (min-width: 768) {
-    h1,
-    h2 {
-      text-align: left;
-      margin-left: 2em;
-    }
-  }
-}
-
 .fp-controlArrow.fp-next {
   border-color: transparent transparent transparent #000000 !important;
 }

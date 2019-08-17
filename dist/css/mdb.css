@@ -19351,18 +19351,6 @@ h2 {
       text-align: left;
       margin-left: 2em; } }
 
-.s3 {
-  background: url("/img/wasser.jpg");
-  background-size: cover; }
-  .s3 h1,
-  .s3 h2 {
-    color: #000000; }
-  @media screen and (min-width: 768) {
-    .s3 h1,
-    .s3 h2 {
-      text-align: left;
-      margin-left: 2em; } }
-
 .fp-controlArrow.fp-next {
   border-color: transparent transparent transparent #000000 !important; }
 
@@ -19377,3 +19365,35 @@ h2 {
 
 #slide-umsatz {
   background: green; }
+
+.referenzen {
+  background-size: cover; }
+  .referenzen #om90 {
+    background: url("/img/om90.jpg");
+    background-size: cover; }
+  .referenzen #gluehsparwurm {
+    background: url("/img/gluehsparwurm.jpg"); }
+  .referenzen #hemmerich {
+    background: url("/img/hemmerich.jpg"); }
+  .referenzen h1,
+  .referenzen h2 {
+    color: #000000; }
+  @media screen and (min-width: 768) {
+    .referenzen h1,
+    .referenzen h2 {
+      text-align: left;
+      margin-left: 2em; } }
+  .referenzen .slide {
+    padding-top: 30vh; }
+
+.btn-container {
+  display: inline-block;
+  padding: 10px;
+  width: auto;
+  margin: 0 auto; }
+
+.prevSlide,
+.nextSlide,
+.hidden,
+.btn-wasnoch {
+  display: none !important; }
