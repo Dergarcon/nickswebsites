@@ -63,12 +63,12 @@
       </div>
       <div class="section s2">
         <h2>Darum Mareko</h2>
-        <div class="slide">
+        <div class="slide" id="slide-umsatz">
           <i class="fab fa-500px fa-7x mb-3"></i>
-          <h2 class="h1-responsive mb-3">Benutzer&shy;freundlichkeit</h2>
+          <h2 class="h1-responsive mb-3">Steigern Sie Ihren Umsatz</h2>
           <button
             data-toggle="modal"
-            data-target="#modalUsability"
+            data-target="#modalUmsatz"
             class="btn btn-outline-black wow fadeInDown mx-auto btn-wiedas"
             data-wow-delay="0.4s"
           >
@@ -95,14 +95,14 @@
           </button>
         </div>
 
-        <div class="slide" id="slide-umsatz">
+        <div class="slide" id="slide-wahrnehmung">
           <i class="fab fa-500px fa-7x mb-3"></i>
-          <h2 class="h1-responsive mb-3">Benutzer&shy;freundlichkeit</h2>
+          <h2 class="h1-responsive mb-3">Verbessern Sie die Wahrnehmung Ihres Unternehmens</h2>
           <div class="row">
             <div class="col">
               <button
                 data-toggle="modal"
-                data-target="#modalUsability"
+                data-target="#modalWahrnehmung"
                 class="btn btn-outline-black wow fadeInDown mx-auto btn-wiedas"
                 data-wow-delay="0.4s"
               >
@@ -113,47 +113,30 @@
                 data-wow-delay="0.4s"
               >
                 Referenzen ansehen <i class="far fa-arrow-alt-circle-down"></i>
-              </button>
-              <!-- <button
-                class="btn btn-outline-black wow fadeInDown mx-auto prevSlide btn-zurueck"
-                data-wow-delay="0.4s"
-              >
-                <i class="far fa-arrow-alt-circle-left"></i>
-                zurück
-              </button>
-              <button
-                class="btn btn-outline-black wow fadeInDown mx-auto nextSlide btn-wasnoch"
-                data-wow-delay="0.4s"
-              >
-                was noch? <i class="far fa-arrow-alt-circle-right"></i>
-              </button> -->
+              </button>  
             </div>
           </div>
         </div>
-        <div class="slide">
-          <!--Card content-->
-          <div class="card-body">
-            <!--Title-->
-            <h4 class="card-title">ENOentry</h4>
-            <!--Text-->
-            <p class="card-text">
-              Halbautomatischer Stretchwickler für mittlere
-              Produktionsleistungen.
-            </p>
-            <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-            <button
-              type="button"
-              class="btn grey white-text btn-md"
-              data-toggle="modal"
-              data-target="#enoentry"
-            >
-              Mehr erfahren
-            </button>
-            <a
-              class="btn btn-outline-white wow fadeInDown mx-auto nextSection"
-              data-wow-delay="0.4s"
-              >Was noch?</a
-            >
+        <div class="slide" id="slide-responsive">
+          <i class="fab fa-500px fa-7x mb-3"></i>
+          <h2 class="h1-responsive mb-3">Verbessern Sie die Wahrnehmung Ihres Unternehmens</h2>
+          <div class="row">
+            <div class="col">
+              <button
+                data-toggle="modal"
+                data-target="#modalResponsive"
+                class="btn btn-outline-black wow fadeInDown mx-auto btn-wiedas"
+                data-wow-delay="0.4s"
+              >
+                Wie das? <i class="far fa-question-circle"></i>
+              </button>
+              <button
+                class="btn btn-outline-black wow fadeInDown mx-auto nextSection btn-referenzen"
+                data-wow-delay="0.4s"
+              >
+                Referenzen ansehen <i class="far fa-arrow-alt-circle-down"></i>
+              </button>  
+            </div>
           </div>
         </div>
       </div>
@@ -374,7 +357,7 @@
     <!-- Modal -->
     <div
       class="modal fade"
-      id="modalUsability"
+      id="modalUmsatz"
       tabindex="-1"
       role="dialog"
       aria-labelledby="exampleModalLabel"
@@ -384,7 +367,7 @@
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="exampleModalLabel">
-              Modal title
+              Umsatz steigern
             </h5>
             <button
               type="button"
@@ -396,9 +379,95 @@
             </button>
           </div>
           <div class="modal-body">
-            Eine moderne & gut strukturierte Webseite erlaubt es Ihren
-            Besuchern, sich schnell einen positiven Eindruck von Ihnen zu
-            machen.
+            <p>
+              Eine Website steht im Mittelpunkt einer
+              Marketingstrategie und ist der zentrale Ort, an den 
+              Interessenten und Kunden geleitet werden.</br></br>Die Internetsuche ist für uns alle
+              zur Methode geworden, um die gewünschten Produkte und
+              Dienstleistungen zu finden. Ihre Website und ihr Inhalt haben
+              Einfluss darauf, wo Sie bei einer Suche auftauchen, und ob Ihre Website Besucher generiert.</br></br>          
+              Wenn Ihr Geschäft überwiegend offline
+              abgewickelt wird, ist es sehr wahrscheinlich, dass Ihre Kunden
+              trotzdem erwarten wichtige Informationen über
+              Ihr Unternehmen online zu finden. Laut einer <a href="http://">Untersuchung von Salesforce
+                Deskfacts</a> überprüfen 90% Ihre Website, bevor sie eine E-Mail senden
+              oder Sie anrufen.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">
+              Schließen
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="modalWahrnehmung"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">
+              Wahrnehmung steigern
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+                Das verbesserte visuelle Design einer modernen Website stellt die anfängliche Wahrnehmung Ihrer Marke und damit Ihres Geschäfts her. Ihre Marken- und Geschäftswerte beeinflussen, ob potenzielle Kunden bei Ihnen kaufen.</br></br>Attraktive Benutzerfreundlichkeit beim Navigieren auf Websites mit unbedingt erforderlichem Inhalt senkt die Absprungrate von Websites (wenn jemand auf Ihre Website kommt und diese sofort verlässt) und erhöht das Engagement, die Leads und die Bestellungen von Interessenten.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">
+              Schließen
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="modalResponsive"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">
+              Jeder Gerätezugriff maximiert die Benutzer Ihrer Website
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Eine moderne reaktionsschnelle Website ist für Mobilgeräte optimiert. Dies ermöglicht einen angenehmen Website-Zugriff für Besucher von Mobilgeräten. Laut <a href="https://www.statista.com/statistics/241462/global-mobile-phone-website-traffic-share/" target="_blank">statista</a> wurden im Jahr 2018 schon 52,2% des weltweiten Website-Verkehrs über Mobiltelefone generiert.</br></br>Schon seit April 2015 gilt die Mobilfreundlichkeit einer Website als ein wichtiger Rankingfaktor bei Google.
+            </p>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-primary" data-dismiss="modal">
