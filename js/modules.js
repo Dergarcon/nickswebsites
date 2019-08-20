@@ -34,10 +34,11 @@ exports.modules = [
   './js/vendor/enhanced-modals.js',
   './js/dist/treeview.js',
   './js/vendor/bs-custom-file-input.js',
-  './js/cookies.js',
-  './js/scrolloverflow.min.js',
-  './js/fullpage.min.js',
-  './js/wasNoch.js',
+  './js/ownScripts/cookies.js',
+  //'./js/scrolloverflow.min.js',
+  './js/ownScripts/fullpage.min.js',
+  './js/ownScripts/wasNoch.js',
+  './js/ownScripts/allowScrollOnModals.js',
 
 
   // './js/vendor/addons/jquery.zmd.hierarchical-display.js/'
