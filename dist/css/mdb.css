@@ -19409,6 +19409,10 @@ body {
   overflow: hidden;
   -webkit-overflow-scrolling: touch; }
 
+.contact-section {
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch; }
+
 .prevSlide,
 .nextSlide,
 .hidden,
