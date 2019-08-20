@@ -3,7 +3,7 @@ setInterval(() => {
     $modals = document.querySelectorAll('.modal')
     $modals.forEach( $modal => {        
         if ($modal.className.includes('show')) {            
-             fullpage_api.fitToSection()            
+             //fullpage_api.fitToSection()            
         }
     })        
 }, 5);
