@@ -1,0 +1,25 @@
+.dsgvo {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  font-size: 11px;
+  z-index: 9999999;
+  display: none;
+
+  .row {
+    margin: 0;
+  }
+
+  p {
+    color: #ffffff !important;
+    // line-height: 2px;
+  }
+  a {
+    color: yellow;
+  }
+
+  #dsgvo_accept {
+    color: black;
+  }
+}

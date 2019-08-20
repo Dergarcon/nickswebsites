@@ -1,7 +1,7 @@
 checkCookie()
 $('#dsgvo_accept').click(function (e) {
     $('.dsgvo').fadeOut();
-    setCookie('om90-cookies', 'accepted', 29);
+    setCookie('nickmarek-cookies', 'accepted', 29);
 });
 
 function setCookie(cname, cvalue, exdays) {
@@ -27,7 +27,7 @@ function getCookie(cname) {
 }
 
 function checkCookie() {
-    var value = getCookie("om90-cookies");
+    var value = getCookie("nickmarek-cookies");
     if (value == "accepted") {
         $('.dsgvo').hide();
     } else {

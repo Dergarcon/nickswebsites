@@ -15373,6 +15373,23 @@ h2 {
 #slide-umsatz {
   background: green; }
 
+.dsgvo {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  font-size: 11px;
+  z-index: 9999999;
+  display: none; }
+  .dsgvo .row {
+    margin: 0; }
+  .dsgvo p {
+    color: #ffffff !important; }
+  .dsgvo a {
+    color: yellow; }
+  .dsgvo #dsgvo_accept {
+    color: black; }
+
 .referenzen {
   background-size: cover; }
   .referenzen #om90 {
