@@ -19383,6 +19383,15 @@ h2 {
   .dsgvo #dsgvo_accept {
     color: black; }
 
+#modalKeyboard {
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  left: 0; }
+  @media screen and (max-width: 768px) {
+    #modalKeyboard {
+      display: none !important; } }
+
 .referenzen {
   background-size: cover; }
   .referenzen #om90 {

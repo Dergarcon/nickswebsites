@@ -39,6 +39,7 @@ exports.modules = [
   './js/ownScripts/fullpage.min.js',
   './js/ownScripts/wasNoch.js',
   './js/ownScripts/allowScrollOnModals.js',
+  './js/ownScripts/keyboardInfo.js',
 
 
   // './js/vendor/addons/jquery.zmd.hierarchical-display.js/'

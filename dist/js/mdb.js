@@ -27810,7 +27810,7 @@ document.addEventListener("DOMContentLoaded", function () {
 checkCookie()
 $('#dsgvo_accept').click(function (e) {
     $('.dsgvo').fadeOut();
-    setCookie('om90-cookies', 'accepted', 29);
+    setCookie('nickmarek-cookies', 'accepted', 29);
 });
 
 function setCookie(cname, cvalue, exdays) {
@@ -27836,9 +27836,9 @@ function getCookie(cname) {
 }
 
 function checkCookie() {
-    var value = getCookie("om90-cookies");
+    var value = getCookie("nickmarek-cookies");
     if (value == "accepted") {
-        $('.dsgvo').hide();
+        $('.dsgvo').hide();   
     } else {
         $('.dsgvo').show();
     }
@@ -27877,3 +27877,30 @@ setInterval(() => {
 
 
 // check if one element hast .show and if so change scrolling behaviour
+var value = getCookie("nickmarek-cookies");
+    if (value == "accepted") {        
+        $('#modalKeyboard').css('display', 'none')                
+        $('#modalKeyboard').removeClass('show')        
+    } else {        
+        $('#modalKeyboard').css('display', 'block')       
+        $('#modalKeyboard').addClass('show')                  
+    }
+
+$closeBtns = document.querySelectorAll('#modalKeyboard button')
+$closeBtns.forEach($btn => {
+    $btn.addEventListener('click' , (event) => {        
+        $('#modalKeyboard').css('display', 'none')                
+        $('#modalKeyboard').removeClass('show')  
+    })
+})
+
+// Detect all clicks on the document
+document.addEventListener('click', function (event) {
+
+	// If the click happened inside the modal, do nothing
+	if (event.target.closest('.modal')) return;
+
+    $('#modalKeyboard').css('display', 'none')                
+        $('#modalKeyboard').removeClass('show')  
+
+}, false);

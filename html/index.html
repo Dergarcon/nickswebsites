@@ -594,8 +594,48 @@
         </div>
       </div>  
     </div>
+    <!-- Modal Info to navigate with keyboard on desktop -->
+    <div
+      class="modal wow slideInLeft"      
+      data-wow-delay="1s"
+      id="modalKeyboard"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">
+              Herzlich Willkommen auf der Internetpräsenz von Nick Marek!
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Bedienen Sie diese Webseite auch gerne mit den Pfeiltasten Ihrer Tastatur.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">
+              Alles klar
+            </button>
+          </div>
+        </div>
+      </div>  
+    </div>
     <!-- dsgvo start -->
-    <div class="dsgvo black pt-2 mb-0 rgba-black-light">
+    <div class="dsgvo black pt-2 mb-0 rgba-black-light wow fadeIn"
+    data-wow-delay="0.1s"
+    >
         <div class="container text-white">
           <div class="row">
             <p>
@@ -644,14 +684,15 @@
           "benefitsSection",
           "projectsSection",
           "contactSection",
-          "dsgvo"
+          "dsgvo",                    
+                
         ],
         scrollingSpeed: 777,
         verticalCentered: true,
         //paddingTop: "3em",
         //paddingBottom: "3em",
         fixedElements: ".footer",
-        normalScrollElements: '.modal',        
+        normalScrollElements: '.modal, .contact-section',        
         // scrollOverflow: true - was enabled but scrolloverflow.min.js gives errors?
       });
     </script>

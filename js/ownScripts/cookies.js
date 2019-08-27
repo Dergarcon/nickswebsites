@@ -29,7 +29,7 @@ function getCookie(cname) {
 function checkCookie() {
     var value = getCookie("nickmarek-cookies");
     if (value == "accepted") {
-        $('.dsgvo').hide();
+        $('.dsgvo').hide();   
     } else {
         $('.dsgvo').show();
     }

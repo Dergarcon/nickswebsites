@@ -23,3 +23,15 @@
     color: black;
   }
 }
+
+#modalKeyboard {
+  position: fixed;
+  width: 100vw;
+  // display: block;
+  top: 0;
+  left: 0;
+
+  @media screen and (max-width: 768px) {
+    display: none !important;
+  }
+}
