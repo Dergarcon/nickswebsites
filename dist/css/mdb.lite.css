@@ -15397,7 +15397,8 @@ h2 {
   background-size: cover; }
   .referenzen #om90 {
     background: url("/img/om90.jpg");
-    background-size: cover; }
+    background: url("/img/om90-mobil-md.png");
+    background-size: 100%; }
   .referenzen #gluehsparwurm {
     background: url("/img/gluehsparwurm.jpg"); }
   .referenzen #hemmerich {
@@ -15460,7 +15461,9 @@ body {
   background: #ff00fe; }
 
 #slide-responsive {
-  background: #bebebe; }
+  background: #bebebe;
+  background: #00ffff;
+  background: #32cd32; }
 
 #slide-usability {
   background: red; }
@@ -15471,6 +15474,33 @@ body {
 
 .s2 {
   color: white !important; }
+
+.goToProjects {
+  position: absolute;
+  z-index: 2;
+  color: black;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  bottom: 0;
+  font-family: "Dancing Script", cursive;
+  color: white;
+  font-size: 3rem;
+  clear: both;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end; }
+  .goToProjects p {
+    margin: 0; }
+
+@media screen and (max-width: 768px) {
+  .goToProjects {
+    display: none; } }
 
 .contactSection a {
   color: black; }

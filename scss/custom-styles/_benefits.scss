@@ -12,6 +12,8 @@
 
 #slide-responsive {
   background: #bebebe;
+  background: #00ffff;
+  background: #32cd32;
 }
 
 #slide-usability {
@@ -25,4 +27,28 @@
 
 .s2 {
   color: white !important;
+}
+
+.goToProjects {
+  position: absolute;
+  z-index: 2;
+  color: black;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  bottom: 0;
+  font-family: "Dancing Script", cursive;
+  color: white;
+  font-size: 3rem;
+  clear: both;
+  justify-content: flex-end;
+  p {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .goToProjects {
+    display: none;
+  }
 }
