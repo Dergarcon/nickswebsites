@@ -19392,6 +19392,9 @@ h2 {
     #modalKeyboard {
       display: none !important; } }
 
+.contactBtn {
+  display: none !important; }
+
 .referenzen {
   background-size: cover; }
   .referenzen #om90 {
@@ -19438,6 +19441,13 @@ body {
 .contact-section {
   overflow: hidden;
   -webkit-overflow-scrolling: touch; }
+
+@media screen and (max-width: 425px) {
+  .fp-controlArrow {
+    top: 25% !important; } }
+
+.btn-referenzen {
+  display: none; }
 
 .prevSlide,
 .nextSlide,
