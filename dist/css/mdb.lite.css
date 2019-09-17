@@ -15358,20 +15358,11 @@ h2 {
       text-align: left;
       margin-left: 2em; } }
 
-.fp-controlArrow.fp-next {
-  border-color: transparent transparent transparent #000000 !important; }
-
-.fp-controlArrow.fp-prev {
-  border-color: transparent #000000 transparent transparent !important; }
-
 .section {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center; }
-
-#slide-umsatz {
-  background: green; }
 
 .dsgvo {
   position: fixed;
@@ -15449,12 +15440,40 @@ body {
   overflow: hidden;
   -webkit-overflow-scrolling: touch; }
 
+.fp-controlArrow.fp-next {
+  border-color: transparent transparent transparent #000000 !important; }
+
+.fp-controlArrow.fp-prev {
+  border-color: transparent #000000 transparent transparent !important; }
+
 @media screen and (max-width: 425px) {
   .fp-controlArrow {
     top: 25% !important; } }
 
 .btn-referenzen {
   display: none; }
+
+#slide-umsatz {
+  background: #ffa500; }
+
+#slide-wahrnehmung {
+  background: #ff00fe; }
+
+#slide-responsive {
+  background: #bebebe; }
+
+#slide-usability {
+  background: red; }
+
+#slide-seo {
+  background: #0000fe;
+  color: white; }
+
+.s2 {
+  color: white !important; }
+
+.contactSection a {
+  color: black; }
 
 .prevSlide,
 .nextSlide,

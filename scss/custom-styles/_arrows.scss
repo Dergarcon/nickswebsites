@@ -1,3 +1,11 @@
+.fp-controlArrow.fp-next {
+  border-color: transparent transparent transparent #000000 !important;
+}
+
+.fp-controlArrow.fp-prev {
+  border-color: transparent #000000 transparent transparent !important;
+}
+
 @media screen and (max-width: 425px) {
   .fp-controlArrow {
     top: 25% !important;
