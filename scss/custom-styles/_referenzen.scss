@@ -1,22 +1,64 @@
 .referenzen {
   background-size: cover;
-  #om90 {
-    background: url("/img/om90.jpg");
-    background: url("/img/om90-mobil-md.png");
-    background-size: 100%;
+  //background imgs desktop
+  @media screen and (min-width: 768px) {
+    #om90 {
+      background: url("/img/om90_desktop.jpg");
+      background-size: 100%;
+    }
+    #gluehsparwurm {
+      background: url("/img/gluehsparwurm_desktop.jpg");
+      background-size: 100%;
+    }
+    #hemmerich {
+      background: url("/img/hemmerich_desktop.jpg");
+      background-size: 100%;
+      // gibt desktop2
+    }
   }
-  #gluehsparwurm {
-    background: url("/img/gluehsparwurm.jpg");
+  //background imgs tablet
+  @media screen and (max-width: 768px) {
+    #om90 {
+      background: url("/img/om90_tablet.jpg");
+      background-size: 100%;
+      // gibt tablet2
+      background-size: 100%;
+    }
+    #gluehsparwurm {
+      background: url("/img/gluehsparwurm_tablet.jpg");
+      background-size: 100%;
+      //gibt tablet2
+    }
+    #hemmerich {
+      background: url("/img/hemmerich_tablet.jpg");
+      background-size: 100%;
+      // gibt tablet2
+    }
   }
-  #hemmerich {
-    background: url("/img/hemmerich.jpg");
+  //background imgs smartphone
+  @media screen and (max-width: 425px) {
+    #om90 {
+      background: url("/img/om90_750.jpg");
+      // gibt noch 812 und 812-2
+      background-size: 100%;
+    }
+    #gluehsparwurm {
+      background: url("/img/gluehsparwurm_smartphone.jpg");
+      background-size: 100%;
+      // gibt smartphone2 und smartphone3
+    }
+    #hemmerich {
+      background: url("/img/hemmerich_smartphone.jpg");
+      background-size: 100%;
+      // gibt noch smartphone2
+    }
   }
   h1,
   h2 {
     //   font-size: 2rem;
     color: #000000;
   }
-  @media screen and (min-width: 768) {
+  @media screen and (min-width: 768px) {
     h1,
     h2 {
       text-align: left;
