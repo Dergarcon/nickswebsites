@@ -7,3 +7,9 @@ $(document).on("click", ".prevSlide", function() {
   $(document).on("click", ".nextSection", function() {
     fullpage_api.moveSectionDown();
   });
+  $(document).on("click", ".goToProjects", function() {    
+    fullpage_api.moveSectionDown();
+  });
+  $(document).on("click", ".goToContact", function() {    
+    fullpage_api.moveSectionDown();
+  });

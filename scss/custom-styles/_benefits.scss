@@ -29,20 +29,28 @@
   color: white !important;
 }
 
-.goToProjects {
+.goToProjects,
+.goToContact {
   position: absolute;
   z-index: 2;
-  color: black;
+  color: #000000 !important;
+  //  text-shadow: #ffffff 2px 2px;
   width: 100vw;
   display: flex;
   flex-direction: column;
   bottom: 0;
-  font-family: "Dancing Script", cursive;
+  text-transform: uppercase;
+  font-family: "Montserrat";
+  font-weight: 800;
   color: rgba(0, 0, 0, 1);
-  font-size: 3rem;
+  font-size: 1rem;
   clear: both;
   justify-content: flex-end;
+  i {
+    font-size: 3rem;
+  }
   p {
-    margin: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
   }
 }

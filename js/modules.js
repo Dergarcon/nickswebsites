@@ -35,7 +35,7 @@ exports.modules = [
   './js/dist/treeview.js',
   './js/vendor/bs-custom-file-input.js',
   './js/ownScripts/cookies.js',
-  './js/scrolloverflow.min.js',
+  './js/ownScripts/scrolloverflow.min.js',
   './js/ownScripts/fullpage.min.js',
   './js/ownScripts/wasNoch.js',
   './js/ownScripts/allowScrollOnModals.js',
