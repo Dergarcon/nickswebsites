@@ -6,14 +6,20 @@
       #om90 {
         background: url("/img/om90_desktop.webp");
         background-size: 100%;
+        background-repeat: no-repeat;
+        background-color: #067eae;
       }
       #gluehsparwurm {
         background: url("/img/gluehsparwurm_desktop.webp");
         background-size: 100%;
+        background-repeat: no-repeat;
+        background-color: #b2b2b2;
       }
       #hemmerich {
         background: url("/img/hemmerich_desktop.webp");
         background-size: 100%;
+        background-repeat: no-repeat;
+        background-color: #b2b2b2;
         // gibt desktop2
       }
     }
@@ -23,16 +29,21 @@
         background: url("/img/om90_tablet.webp");
         background-size: 100%;
         // gibt tablet2
-        background-size: 100%;
+        background-repeat: no-repeat;
+        background-color: #067eae;
       }
       #gluehsparwurm {
         background: url("/img/gluehsparwurm_tablet.webp");
         background-size: 100%;
+        background-repeat: no-repeat;
+        background-color: #b2b2b2;
         //gibt tablet2
       }
       #hemmerich {
         background: url("/img/hemmerich_tablet.webp");
         background-size: 100%;
+        background-repeat: no-repeat;
+        background-color: #b2b2b2;
         // gibt tablet2
       }
     }
@@ -42,15 +53,21 @@
         background: url("/img/om90_750.webp");
         // gibt noch 812 und 812-2
         background-size: 100%;
+        background-repeat: no-repeat;
+        background-color: #067eae;
       }
       #gluehsparwurm {
         background: url("/img/gluehsparwurm_smartphone.webp");
         background-size: 100%;
+        background-repeat: no-repeat;
+        background-color: #b2b2b2;
         // gibt smartphone2 und smartphone3
       }
       #hemmerich {
         background: url("/img/hemmerich_smartphone.webp");
         background-size: 100%;
+        background-repeat: no-repeat;
+        background-color: #b2b2b2;
         // gibt noch smartphone2
       }
     }
@@ -65,14 +82,20 @@
       #om90 {
         background: url("/img/om90_desktop.jpg");
         background-size: 100%;
+        background-repeat: no-repeat;
+        background-color: #067eae;
       }
       #gluehsparwurm {
         background: url("/img/gluehsparwurm_desktop.jpg");
         background-size: 100%;
+        background-repeat: no-repeat;
+        background-color: #b2b2b2;
       }
       #hemmerich {
         background: url("/img/hemmerich_desktop.jpg");
         background-size: 100%;
+        background-repeat: no-repeat;
+        background-color: #b2b2b2;
         // gibt desktop2
       }
     }
@@ -83,15 +106,21 @@
         background-size: 100%;
         // gibt tablet2
         background-size: 100%;
+        background-repeat: no-repeat;
+        background-color: #067eae;
       }
       #gluehsparwurm {
         background: url("/img/gluehsparwurm_tablet.jpg");
         background-size: 100%;
+        background-repeat: no-repeat;
+        background-color: #b2b2b2;
         //gibt tablet2
       }
       #hemmerich {
         background: url("/img/hemmerich_tablet.jpg");
         background-size: 100%;
+        background-repeat: no-repeat;
+        background-color: #b2b2b2;
         // gibt tablet2
       }
     }
@@ -101,15 +130,21 @@
         background: url("/img/om90_750.jpg");
         // gibt noch 812 und 812-2
         background-size: 100%;
+        background-repeat: no-repeat;
+        background-color: #067eae;
       }
       #gluehsparwurm {
         background: url("/img/gluehsparwurm_smartphone.jpg");
         background-size: 100%;
+        background-repeat: no-repeat;
+        background-color: #b2b2b2;
         // gibt smartphone2 und smartphone3
       }
       #hemmerich {
         background: url("/img/hemmerich_smartphone.jpg");
         background-size: 100%;
+        background-repeat: no-repeat;
+        background-color: #b2b2b2;
         // gibt noch smartphone2
       }
     }
@@ -133,11 +168,11 @@
   .slide {
     padding-top: 30vh;
   }
-}
 
-.btn-container {
-  display: inline-block;
-  padding: 10px;
-  width: auto;
-  margin: 0 auto;
+  .btn-container {
+    display: inline-block;
+    padding: 10px;
+    width: auto;
+    margin: 0 auto;
+  }
 }

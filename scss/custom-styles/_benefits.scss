@@ -38,17 +38,11 @@
   flex-direction: column;
   bottom: 0;
   font-family: "Dancing Script", cursive;
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 1);
   font-size: 3rem;
   clear: both;
   justify-content: flex-end;
   p {
     margin: 0;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .goToProjects {
-    display: none;
   }
 }
