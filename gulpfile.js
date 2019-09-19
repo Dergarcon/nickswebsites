@@ -4,6 +4,7 @@ const browserSync = require('browser-sync');
 const concat = require('gulp-concat');
 const cssmin = require('gulp-cssmin');
 const imagemin = require('gulp-imagemin');
+const webp = require('gulp-webp');
 const minify = require('gulp-minify');
 const rename = require('gulp-rename');
 const sass = require('gulp-sass');
@@ -135,8 +136,10 @@ gulp.task('img-compression', () => {
         }
         ]
       })
-    ]))
-    .pipe(gulp.dest('./dist/img'));
+    ]))    
+    .pipe(gulp.dest('./dist/img'))
+    .pipe(webp())
+    .pipe(gulp.dest('./dist/img'));    
 });
 
 // Live Server

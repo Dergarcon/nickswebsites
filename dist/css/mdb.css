@@ -19386,49 +19386,86 @@ h2 {
 .contactBtn {
   display: none !important; }
 
-.referenzen {
+.webp .referenzen {
   background-size: cover; }
   @media screen and (min-width: 768px) {
-    .referenzen #om90 {
+    .webp .referenzen #om90 {
+      background: url("/img/om90_desktop.webp");
+      background-size: 100%; }
+    .webp .referenzen #gluehsparwurm {
+      background: url("/img/gluehsparwurm_desktop.webp");
+      background-size: 100%; }
+    .webp .referenzen #hemmerich {
+      background: url("/img/hemmerich_desktop.webp");
+      background-size: 100%; } }
+  @media screen and (max-width: 768px) {
+    .webp .referenzen #om90 {
+      background: url("/img/om90_tablet.webp");
+      background-size: 100%;
+      background-size: 100%; }
+    .webp .referenzen #gluehsparwurm {
+      background: url("/img/gluehsparwurm_tablet.webp");
+      background-size: 100%; }
+    .webp .referenzen #hemmerich {
+      background: url("/img/hemmerich_tablet.webp");
+      background-size: 100%; } }
+  @media screen and (max-width: 425px) {
+    .webp .referenzen #om90 {
+      background: url("/img/om90_750.webp");
+      background-size: 100%; }
+    .webp .referenzen #gluehsparwurm {
+      background: url("/img/gluehsparwurm_smartphone.webp");
+      background-size: 100%; }
+    .webp .referenzen #hemmerich {
+      background: url("/img/hemmerich_smartphone.webp");
+      background-size: 100%; } }
+
+.no-webp .referenzen {
+  background-size: cover; }
+  @media screen and (min-width: 768px) {
+    .no-webp .referenzen #om90 {
       background: url("/img/om90_desktop.jpg");
       background-size: 100%; }
-    .referenzen #gluehsparwurm {
+    .no-webp .referenzen #gluehsparwurm {
       background: url("/img/gluehsparwurm_desktop.jpg");
       background-size: 100%; }
-    .referenzen #hemmerich {
+    .no-webp .referenzen #hemmerich {
       background: url("/img/hemmerich_desktop.jpg");
       background-size: 100%; } }
   @media screen and (max-width: 768px) {
-    .referenzen #om90 {
+    .no-webp .referenzen #om90 {
       background: url("/img/om90_tablet.jpg");
       background-size: 100%;
       background-size: 100%; }
-    .referenzen #gluehsparwurm {
+    .no-webp .referenzen #gluehsparwurm {
       background: url("/img/gluehsparwurm_tablet.jpg");
       background-size: 100%; }
-    .referenzen #hemmerich {
+    .no-webp .referenzen #hemmerich {
       background: url("/img/hemmerich_tablet.jpg");
       background-size: 100%; } }
   @media screen and (max-width: 425px) {
-    .referenzen #om90 {
+    .no-webp .referenzen #om90 {
       background: url("/img/om90_750.jpg");
       background-size: 100%; }
-    .referenzen #gluehsparwurm {
+    .no-webp .referenzen #gluehsparwurm {
       background: url("/img/gluehsparwurm_smartphone.jpg");
       background-size: 100%; }
-    .referenzen #hemmerich {
+    .no-webp .referenzen #hemmerich {
       background: url("/img/hemmerich_smartphone.jpg");
       background-size: 100%; } }
+
+.referenzen h1,
+.referenzen h2 {
+  color: #000000; }
+
+@media screen and (min-width: 768px) {
   .referenzen h1,
   .referenzen h2 {
-    color: #000000; }
-  @media screen and (min-width: 768px) {
-    .referenzen h1,
-    .referenzen h2 {
-      text-align: left;
-      margin-left: 2em; } }
-  .referenzen .slide {
-    padding-top: 30vh; }
+    text-align: left;
+    margin-left: 2em; } }
+
+.referenzen .slide {
+  padding-top: 30vh; }
 
 .btn-container {
   display: inline-block;
@@ -19465,7 +19502,7 @@ body {
 
 @media screen and (max-width: 425px) {
   .fp-controlArrow {
-    top: 25% !important; } }
+    top: 10% !important; } }
 
 .btn-referenzen {
   display: none; }
